@@ -62,19 +62,21 @@ The frontend of the project is located in the `clubwebsite_frontend` directory.
 
 1. Navigate to the `clubwebsite_frontend` directory.
 
-2. Install the required Node.js packages:
+2. Open a seperate terminal, but keep the old one running!
+
+3. Install the required Node.js packages:
 
     ```bash
     npm install
     ```
 
-3. Install Vue Router:
+4. Install Vue Router:
 
     ```bash
     npm install vue-router
     ```
 
-4. Start the Vue.js development server:
+5. Start the Vue.js development server:
 
     ```bash
     npm run serve
