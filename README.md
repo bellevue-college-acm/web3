@@ -82,5 +82,5 @@ The frontend of the project is located in the `clubwebsite_frontend` directory.
     npm run serve
     ```
 
-Now, you should be able to access the application at http://localhost:8080
+Now, you should be able to access the application at http://localhost:8080.
 
