@@ -22,12 +22,12 @@ The backend of the project is located in the `clubwebsite` directory.
 2. Create a virtual environment and activate it:
 
     ```bash
-    python3 -m venv env
+    python3 -m venv .env
     ```
 
     ### For Windows
     ```bash
-    env/Scripts/activate
+    .env/Scripts/activate
     ```
 
     *If you get an error saying you can't run the script, run this command:*
@@ -37,7 +37,7 @@ The backend of the project is located in the `clubwebsite` directory.
 
     ### For Mac
     ```bash
-    env/bin/activate  
+    .env/bin/activate  
     ```
 
 3. Install the required Python packages:
