@@ -10,6 +10,9 @@ Before you begin, ensure you have met the following requirements:
 
 - You have installed the latest version of [Python](https://www.python.org/downloads/).
 
+- You have installed the latest version of [Node.js](https://nodejs.org/).
+
+
 ### Backend
 
 The backend of the project is located in the `clubwebsite` directory.
@@ -60,9 +63,9 @@ The backend of the project is located in the `clubwebsite` directory.
 
 The frontend of the project is located in the `clubwebsite_frontend` directory.
 
-1. Navigate to the `clubwebsite_frontend` directory.
+1. Open a seperate terminal, but keep the old one running!
 
-2. Open a seperate terminal, but keep the old one running!
+2. Navigate to the `clubwebsite_frontend` directory.
 
 3. Install the required Node.js packages:
 
