@@ -54,8 +54,7 @@ The backend of the project is located in the `clubwebsite` directory.
     ```bash
     python manage.py runserver
     ```
-
-*Make sure to keep this server running while you perfrom the next steps!*
+    *Make sure to keep this server running while you perfrom the next steps!*
 
 ### Frontend
 
