@@ -4,6 +4,12 @@ This project is a club website built with Django for the backend, Vue.js for the
 
 ## Project Setup
 
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- You have installed the latest version of [Python](https://www.python.org/downloads/).
+
 ### Backend
 
 The backend of the project is located in the `clubwebsite` directory.
@@ -13,8 +19,8 @@ The backend of the project is located in the `clubwebsite` directory.
 2. Create a virtual environment and activate it:
 
     python3 -m venv env
-    source env/bin/activate
 
+    env/Scripts/activate
 
 3. Install the required Python packages:
 
@@ -55,6 +61,5 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-```
 
 Again, please replace the CONTRIBUTING.md and LICENSE.md links with the actual paths to these files in your project if they exist. If they don't exist, you may want to consider adding them.
