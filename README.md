@@ -20,6 +20,10 @@ The backend of the project is located in the `clubwebsite` directory.
 
     ```bash
     python3 -m venv env
+    ```
+
+    ### For Windows
+    ```bash
     env/Scripts/activate
     ```
 
