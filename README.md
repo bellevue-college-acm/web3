@@ -18,48 +18,54 @@ The backend of the project is located in the `clubwebsite` directory.
 
 2. Create a virtual environment and activate it:
 
+    ```bash
     python3 -m venv env
-
-    env/Scripts/activate
+    source env/bin/activate  # For Mac
+    ```
 
 3. Install the required Python packages:
 
+    ```bash
     pip install -r requirements.txt
+    ```
 
 4. Run the Django migrations:
 
+    ```bash
     python manage.py migrate
+    ```
 
 5. Start the Django server:
-    
-    python manage.py runserver
 
+    ```bash
+    python manage.py runserver
+    ```
+
+# Make sure to this server running while you perfrom the next steps!
 
 ### Frontend
-The frontend of the project is located in the clubwebsite_frontend directory.
 
-1. Navigate to the clubwebsite_frontend directory.
+The frontend of the project is located in the `clubwebsite_frontend` directory.
+
+1. Navigate to the `clubwebsite_frontend` directory.
 
 2. Install the required Node.js packages:
 
+    ```bash
     npm install
+    ```
 
 3. Install Vue Router:
 
+    ```bash
     npm install vue-router
+    ```
 
 4. Start the Vue.js development server:
 
+    ```bash
     npm run serve
-
+    ```
 
 Now, you should be able to access the application at http://localhost:8080.
 
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-
-Again, please replace the CONTRIBUTING.md and LICENSE.md links with the actual paths to these files in your project if they exist. If they don't exist, you may want to consider adding them.
