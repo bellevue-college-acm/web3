@@ -20,7 +20,11 @@ The backend of the project is located in the `clubwebsite` directory.
 
     ```bash
     python3 -m venv env
-    source env/bin/activate  # For Mac
+    env/Scripts/activate
+    ```
+    
+    ```bash
+    env/bin/activate  # For Mac
     ```
 
 3. Install the required Python packages:
