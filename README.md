@@ -27,6 +27,11 @@ The backend of the project is located in the `clubwebsite` directory.
     env/Scripts/activate
     ```
 
+    *If you get an error saying you can't run the script, run this command:*
+    ```bash
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+    ```
+
     ### For Mac
     ```bash
     env/bin/activate  
