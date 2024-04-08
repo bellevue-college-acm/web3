@@ -5,6 +5,6 @@ class ClubLeadership(models.Model):
     position = models.CharField(max_length=100)
     email = models.EmailField()
     profile_picture = models.ImageField(upload_to='leadership/')
-
+    
     class Meta:
         verbose_name_plural = "Club Leadership"
